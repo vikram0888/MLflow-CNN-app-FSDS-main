@@ -1,3 +1,6 @@
+#it just a way of packaging environment files ##MLflow is a  library that uses conda.yaml as as default one , doesn`t uses requirements.txt as default one
+##if u want to create this environment write this --> $conda env create -f conda.yaml  #'f' from file i want to create that why 'f' is written their
+#again if u want to go in ur environment --> $conda activate ./env
 name: MLflow-CNN
 channels:
   - defaults
