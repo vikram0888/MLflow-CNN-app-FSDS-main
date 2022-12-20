@@ -26,7 +26,7 @@ def save_json(path: str, data: dict) -> None:
     logging.info(f"json file saved at: {path}")
 
 
-def unzip_file(source: str, dest: str) -> None:
+def unzip_file(source: str, dest: str) -> None: #'-> None' mean it will return None 
     logging.info(f"extraction started...")
 
     with ZipFile(source, "r") as zip_f:
