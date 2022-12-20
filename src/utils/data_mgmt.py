@@ -5,6 +5,7 @@ from PIL import Image
 import logging
 from src.utils.common import create_directories
 
+#seperating corupt n non-corupt images (cleaning of data)
 def validate_image(config: dict) -> None:
     PARENT_DIR = os.path.join(
         config["data"]["unzip_data_dir"],

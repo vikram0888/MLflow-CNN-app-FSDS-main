@@ -13,8 +13,9 @@ data:
   trained_model_file: trained_model.h5
 
 params:
-  img_shape: [180,180,3]
-  lr: 0.001
+  img_shape: [180,180,3] # bracket is not in square format'()' but in tuple format  '[]', if they are () format it will consider 
+  #it as a string and throw error
+  lr: 0.001 #Adams
   loss: sparse_categorical_crossentropy
   metrics: ["accuracy"]
   validation_split: 0.2
