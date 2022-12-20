@@ -3,7 +3,7 @@
 conda create --prefix ./env python=3.7 -y
 source activate ./env
 pip install -r requirements.txt
-conda env export > conda.yaml
+conda env export > conda.yaml # '>'  mean all the o/p should be present in 'conda.yaml' file
 #after running this if ur still in base env then write this --> conda activate ./env
 
 ##local packages -

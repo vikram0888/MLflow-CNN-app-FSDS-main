@@ -1,3 +1,4 @@
+#it`s an analogous to requirements.txt,
 name: /config/workspace/env
 channels:
   - defaults
