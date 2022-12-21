@@ -4,7 +4,8 @@ conda_env: conda.yaml
 
 entry_points: 
   main:
-    command: "python src/main.py" #this will decide how the rest of points will execute
+    command: "pip install -e . && python src/main.py" #this will decide how the rest of points will execute
+    #pip install -e .  --> -e mean setup.py '.' in current working directory
 
   get_data:
     parameters:
