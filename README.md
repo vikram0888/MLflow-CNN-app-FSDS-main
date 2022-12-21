@@ -37,14 +37,14 @@ conda env export > conda.yaml
 
 ### Command to run MLproject file
 ```bash
-mlflow run . --no-conda
+mlflow run . --no-conda ##' .' mean run in current working directory
 ```
 ### run any specific entry point in MLproject file
 ```bash
 mlflow run . -e get_data --no-conda
 ```
 
-### run any specific entry point in MLproject file
+### run any specific entry point in MLproject file with your parameters
 ```bash
 mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
 ```

@@ -8,3 +8,4 @@ Pillow
 tensorflow
 ### local packages -
 -e . # << uncomment this to install from setup.py
+#The git rm command is used to remove files from the staging area and working directory for Git --> git rm -f logs/running_logs.log
