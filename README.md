@@ -1,4 +1,4 @@
-# MLflow-project-template
+# MLflow-project-template ##video no. 125 &126
 MLflow project template
 
 ## STEPS -
@@ -35,9 +35,9 @@ conda env export > conda.yaml
 
 ## MLFlow commands
 
-### Command to run MLproject file
+### Command to run MLproject file   ##' .' mean run in current working directory
 ```bash
-mlflow run . --no-conda ##' .' mean run in current working directory
+mlflow run . --no-conda 
 ```
 ### run any specific entry point in MLproject file
 ```bash
@@ -48,5 +48,8 @@ mlflow run . -e get_data --no-conda
 ```bash
 mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
 ```
-
+### ml flow # give u alink
+```bash
+mlflow ui
+```
 
