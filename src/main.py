@@ -23,8 +23,8 @@ def main():
     with mlflow.start_run() as run:
         mlflow.run(".", "get_data", use_conda=False)
         # mlflow.run(".", "get_data", parameters={}, use_conda=False)
-        mlflow.run(".", "base_model_creation", use_conda=False)
-        mlflow.run(".", "training", use_conda=False)
+        mlflow.run(".", "base_model_creation", use_conda=False) #"." current working directory where mlproject resides
+        mlflow.run(".", "training", use_conda=False) #use_conda=False--> where u want to use seperate cond environment or not
 
 if __name__ == '__main__':
     try:

@@ -2,9 +2,9 @@ name: MLflow-app
 
 conda_env: conda.yaml
 
-entry_points:
+entry_points: 
   main:
-    command: "python src/main.py"
+    command: "python src/main.py" #this will decide how the rest of points will execute
 
   get_data:
     parameters:
